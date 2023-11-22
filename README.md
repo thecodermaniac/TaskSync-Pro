@@ -39,7 +39,3 @@ npm install
 npm run dev
 ```
 
-## Credits
-
-Major credits to this Udemy course by Brad Traversy for laying the groundwork for my understanding of the MERN stack: https://www.udemy.com/course/mern-stack-front-to-back/, the source code for which can be found at https://github.com/bradtraversy/devconnector_2.0. The quick start for this README was also inspired by that repository's quick start.
-
