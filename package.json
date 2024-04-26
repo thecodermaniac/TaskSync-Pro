@@ -10,16 +10,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArchawinWongkittiruk/TaskSync Pro.git"
-  },
   "author": "Aritra Mondal",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ArchawinWongkittiruk/TaskSync Pro/issues"
-  },
-  "homepage": "https://github.com/ArchawinWongkittiruk/TaskSync Pro#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
