@@ -7,7 +7,7 @@ const Landing = () => {
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
 
   useEffect(() => {
-    document.title = "TaskSync Pro";
+    document.title = "Taskify";
   }, []);
 
   if (isAuthenticated) {
@@ -17,7 +17,7 @@ const Landing = () => {
   return (
     <section className="landing">
       <nav className="top">
-        <h2>TaskSync Pro</h2>
+        <h2>Taskify</h2>
         <div>
           <Button color="inherit" href="/login">
             Login
@@ -28,7 +28,7 @@ const Landing = () => {
         </div>
       </nav>
       <div className="landing-inner">
-        <h1>TaskSync Pro</h1>
+        <h1>Taskify</h1>
         <p>
           Empower Your <strong>Productivity</strong>: Task Management Made
           Simple.

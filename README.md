@@ -1,4 +1,4 @@
-# TaskSync Pro
+# Taskify
 
 <img src='./preview.PNG'>
 
